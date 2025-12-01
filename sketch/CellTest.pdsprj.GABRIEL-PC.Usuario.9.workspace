@@ -1,20 +1,38 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
- <FRAME activeWindow="0">
-  <PLACEMENT>01d9d0cb00030000fffffffefffffff300000a0100000541000000000000003a000009fb0000053d00000000020000000a00000000000000002d000009ff0000053f</PLACEMENT>
-  <WINDOW mode="00050a01" type="default" index="0" module="ISIS"/>
+ <FRAME activeWindow="2">
+  <PLACEMENT>01d9d0cb00030000fffffffefffffff3000009fd00000532000000000000002d000009fb0000053000000000000000000a00000000000000002d000009fb00000530</PLACEMENT>
+  <WINDOW index="0" mode="00050a01" type="default" module="ISIS"/>
+  <WINDOW index="0" mode="00060a01" type="default" module="ARES"/>
+  <WINDOW index="0" mode="00060a01" type="VIEW3D" module="VIEW3D">
+   <camera>
+    <position y="-1933779" z="7269605" x="2568472"/>
+    <focus y="-119875" z="-5250" x="2830254"/>
+    <up y="970298" z="241911" x="-609"/>
+   </camera>
+  </WINDOW>
  </FRAME>
  <MODULE name="ISIS">
   <debugState VALUE="AAAA/wAAAAH9AAAAAQAAAAMAAAAAAAAAAPwBAAAABPsAAAAcAEUAZABpAHQAbwByACAAQwBvAG4AcwBvAGwAZQAAAAAA/////wAAAJkA////+wAAAEAAZABvAGMAawA6ADQAMgA5ADQAOQA2ADcAMgA5ADUAOgAwADoAUwBpAG0AdQBsAGEAdABpAG8AbgAgAEwAbwBnAgAAAAoAAAAnAAADIAAAAMj7AAAAPABkAG8AYwBrADoANAAyADkANAA5ADYANwAyADkANQA6ADEAOgBXAGEAdABjAGgAIABXAGkAbgBkAG8AdwIAAAAeAAAAOwAAAV4AAADI+wAAADwAZABvAGMAawA6ADQAMgA5ADQAOQA2ADcAMgA5ADUAOgAyADoAUwB5AHMAdABlAG0AIABTAGMAbwBwAGUAAAAAAP////8AAADMAP///wAACbcAAAQlAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAUAEUAZABpAHQAIABNAG8AZABlAHMDAAAAAP////8AAAAAAAAAAAAAAAIAAAAGAAAADgBNAG8AZAB1AGwAZQBzAQAAAAD/////AAAAAAAAAAAAAAAgAHYAYQByAGkAYQBuAHQAXwBzAGUAbABlAGMAdABvAHIAAAAAAP////8AAAAAAAAAAAAAABwAYgBvAGEAcgBkAF8AcwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAAAAAAAAAAAAAYAFYAaQBlAHcAIABUAG8AbwBsAGIAYQByAQAAA3//////AAAAAAAAAAAAAAAYAEUAZABpAHQAIABUAG8AbwBsAGIAYQByAQAABZL/////AAAAAAAAAAAAAAAcAEQAZQBzAGkAZwBuACAAVABvAG8AbABiAGEAcgEAAAji/////wAAAAAAAAAAAAAAAwAAAAMAAAASAEEAbgBpAG0AYQB0AGkAbwBuAQAAAAD/////AAAAAAAAAAAAAAAUAHMAdABhAHQAdQBzAF8AYgBhAHIBAAACQv////8AAAAAAAAAAAAAABAAQwBvAG8AcgBkAEIAbwB4AQAAB8b/////AAAAAAAAAAA="/>
-  <editor gridminor="127000" gridmode="2" flipped="0" zoom="-1" snaprange="63500" orgmode="0" snapidx="1" xcursor="0" snap="127000" scale="242" metric="0" gridmajor="2540000">
-   <centre x="1411694" y="-3688247"/>
-   <origin x="0" y="0"/>
-   <world x1="-40640000" y2="55880000" y1="-55880000" x2="40640000"/>
+  <editor zoom="-1" gridminor="127000" snap="127000" xcursor="0" snaprange="63500" snapidx="1" gridmajor="2540000" flipped="0" metric="0" gridmode="2" scale="250" orgmode="0">
+   <centre y="-4064000" x="5080000"/>
+   <origin y="0" x="0"/>
+   <world y1="-55880000" y2="55880000" x2="40640000" x1="-40640000"/>
+  </editor>
+ </MODULE>
+ <MODULE name="VSMEDIT">
+  <EDITOR/>
+ </MODULE>
+ <MODULE name="ARES">
+  <editor zoom="-1" gridminor="50000" snap="50000" xcursor="0" snaprange="30382" snapidx="1" gridmajor="1000000" flipped="0" metric="1" gridmode="2" scale="418" orgmode="0">
+   <centre y="850000" x="700000"/>
+   <origin y="0" x="0"/>
+   <world y1="-12700000" y2="12700000" x2="15240000" x1="-15240000"/>
   </editor>
  </MODULE>
  <MODULE name="VSMDEBUG">
   <PWI>
-   <POPUP pid="0" iid="-1" x="10" w="100" flags="00000082" h="30" y="39">
+   <POPUP flags="00000082" iid="-1" pid="0" y="39" w="100" h="30" x="10">
     <PROPERTIES>
      <ITEM name="Message Column Width">580</ITEM>
      <ITEM name="ShowGrid">No</ITEM>
@@ -23,7 +41,7 @@
      <ITEM name="Version">100</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP pid="1" iid="-1" x="30" w="100" flags="000000b2" h="30" y="59">
+   <POPUP flags="000000b2" iid="-1" pid="1" y="59" w="100" h="30" x="30">
     <PROPERTIES>
      <ITEM name="Address Column Width">100</ITEM>
      <ITEM name="AutoResize">No</ITEM>
@@ -42,19 +60,9 @@
      <ITEM name="nItems">0</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP pid="2" iid="-1" x="50" w="800" flags="000000a2" h="200" y="79">
+   <POPUP flags="000000a2" iid="-1" pid="2" y="79" w="800" h="200" x="50">
     <PROPERTIES/>
    </POPUP>
   </PWI>
- </MODULE>
- <MODULE name="ARES">
-  <editor gridminor="100000" gridmode="2" flipped="0" zoom="-1" snaprange="46181" orgmode="0" snapidx="1" xcursor="0" snap="50000" scale="275" metric="1" gridmajor="1000000">
-   <centre x="4900000" y="-700000"/>
-   <origin x="0" y="0"/>
-   <world x1="-15240000" y2="12700000" y1="-12700000" x2="15240000"/>
-  </editor>
- </MODULE>
- <MODULE name="VSMEDIT">
-  <EDITOR/>
  </MODULE>
 </WORKSPACE>
